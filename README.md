@@ -1,0 +1,1 @@
+This repository contains a few applications developed during the [React 16: The Complete Guide](https://www.udemy.com/react-the-complete-guide-incl-redux/learn/v4/content) course at Udemy.
