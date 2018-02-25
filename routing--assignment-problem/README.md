@@ -1,9 +1,4 @@
-# Introduction
-
-This project corresponds to sections:
-
-- 9: Reaching out to the Web (Http / Ajax).
-- 11: Multi-Page-Feeling in a Sigle-Page-App: Routing
+This project corresponds to "Task 3: Time to Practice - Routing" under Section 11: Multi-Page-Feeling in a Sigle-Page-App: Routing.
 
 ## Table of Contents
 
