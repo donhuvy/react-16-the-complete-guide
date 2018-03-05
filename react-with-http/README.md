@@ -1,6 +1,6 @@
 # Introduction
 
-This project corresponds to sections:
+This project corresponds to the following sections:
 
 - 9: Reaching out to the Web (Http / Ajax).
 - 11: Multi-Page-Feeling in a Sigle-Page-App: Routing
