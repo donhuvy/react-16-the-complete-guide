@@ -5,6 +5,7 @@ class People extends PureComponent {
   constructor(props) {
     super(props);
     console.log('[People.js] inside constructor', props);
+    this.lastPersonRef = React.createRef();
   }
 
   componentWillMount() {
@@ -13,6 +14,7 @@ class People extends PureComponent {
 
   componentDidMount() {
     console.log('[People.js] componentDidMount()');
+    this.lastPersonRef.current.focus();
   }
 
   componentWillReceiveProps(nextProps) {
@@ -44,6 +46,7 @@ class People extends PureComponent {
                 age={person.age}
                 key={person.id}
                 position={index}
+                ref={this.lastPersonRef}
                 click={() => this.props.clicked(index)}
                 changed={(event) => this.props.changed(event, person.id)} />
     });
