@@ -4,7 +4,7 @@ import { connect } from 'react-redux'
 import asyncComponent from './hoc/asyncComponent'
 
 import Layout from './hoc/Layout/Layout'
-import BurguerBuilder from './containers/BurguerBuilder/BurguerBuilder'
+import BurgerBuilder from './containers/BurgerBuilder/BurgerBuilder'
 
 import * as actions from './store/actions/index'
 
@@ -37,13 +37,13 @@ class App extends Component {
           <Route path="/orders" component={AsyncOrders} />
           <Route path="/logout" component={AsyncLogout} />
           <Route path="/auth" component={AsyncAuth} />
-          <Route exact path="/" component={BurguerBuilder} />
+          <Route exact path="/" component={BurgerBuilder} />
           <Redirect to='/' />
         </Switch>
       ) : (
         <Switch>
           <Route path="/auth" component={AsyncAuth} />
-          <Route exact path="/" component={BurguerBuilder} />
+          <Route exact path="/" component={BurgerBuilder} />
           <Redirect to='/' />
         </Switch>
       )
